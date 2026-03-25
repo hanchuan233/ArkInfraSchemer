@@ -1,0 +1,64 @@
+{
+  "operators": [
+    {
+      "id": "texas",
+      "name_cn": "德克萨斯",
+      "skills": [
+        {"facility_type": "trade", "effect_type": "order_efficiency", "effect_value": 30, "tags": ["lmd"]}
+      ],
+      "synergies": [
+        {"facility_type": "trade", "with": ["lappland"], "bonus": 10, "description": "德狗联动"}
+      ]
+    },
+    {
+      "id": "lappland",
+      "name_cn": "拉普兰德",
+      "skills": [
+        {"facility_type": "trade", "effect_type": "order_efficiency", "effect_value": 25, "tags": ["lmd"]}
+      ],
+      "synergies": []
+    },
+    {
+      "id": "exusiai",
+      "name_cn": "能天使",
+      "skills": [
+        {"facility_type": "manufacture", "effect_type": "productivity", "effect_value": 30, "tags": ["record"]}
+      ],
+      "synergies": []
+    },
+    {
+      "id": "saria",
+      "name_cn": "塞雷娅",
+      "skills": [
+        {"facility_type": "manufacture", "effect_type": "productivity", "effect_value": 20, "tags": ["gold"]}
+      ],
+      "synergies": [
+        {"facility_type": "manufacture", "with": ["ptilopsis"], "bonus": 8, "description": "莱茵协作"}
+      ]
+    },
+    {
+      "id": "ptilopsis",
+      "name_cn": "白面鸮",
+      "skills": [
+        {"facility_type": "manufacture", "effect_type": "productivity", "effect_value": 18, "tags": ["record"]}
+      ],
+      "synergies": []
+    },
+    {
+      "id": "courier",
+      "name_cn": "讯使",
+      "skills": [
+        {"facility_type": "power", "effect_type": "drone_recovery", "effect_value": 15, "tags": []}
+      ],
+      "synergies": []
+    },
+    {
+      "id": "amiya",
+      "name_cn": "阿米娅",
+      "skills": [
+        {"facility_type": "control", "effect_type": "clue_efficiency", "effect_value": 10, "tags": []}
+      ],
+      "synergies": []
+    }
+  ]
+}
